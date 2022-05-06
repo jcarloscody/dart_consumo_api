@@ -16,6 +16,6 @@
   - Arrays []
   - Objeto {"key":value}
   - Dados nulos null
-- [`Exemplo com um objeto`](), [`Exemplo com vários objetos`]() 
+- [`Exemplo com um objeto`](https://github.com/jcarloscody/dart_consumo_api/blob/master/lib/json/aluno.json), [`Exemplo com vários objetos`](https://github.com/jcarloscody/dart_consumo_api/blob/master/lib/json/alunos.json) 
 
 
