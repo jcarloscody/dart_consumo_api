@@ -1,0 +1,50 @@
+[
+    {
+        "nome": "Josué Carlos",
+        "idade": 25,
+        "isProgrammer": true,
+        "linguagensUsadas": ["Java", "Flutter", "Javascript", "Typescript", "Python"],
+        "address": [
+            {
+                "cidade":"Macaíba",
+                "estado": "RN"
+            }, 
+            {
+                "cidade":"Timbaúba",
+                "estado": "PE"
+            }
+        ]
+    },
+    {
+        "nome": "Josué Carlos",
+        "idade": 25,
+        "isProgrammer": true,
+        "linguagensUsadas": ["Java", "Flutter", "Javascript", "Typescript", "Python"],
+        "address": [
+            {
+                "cidade":"Macaíba",
+                "estado": "RN"
+            }, 
+            {
+                "cidade":"Timbaúba",
+                "estado": "PE"
+            }
+        ]
+    },
+    {
+        "nome": "Josué Carlos",
+        "idade": 25,
+        "isProgrammer": true,
+        "linguagensUsadas": ["Java", "Flutter", "Javascript", "Typescript", "Python"],
+        "address": [
+            {
+                "cidade":"Macaíba",
+                "estado": "RN"
+            }, 
+            {
+                "cidade":"Timbaúba",
+                "estado": "PE"
+            }
+        ]
+    }
+]
