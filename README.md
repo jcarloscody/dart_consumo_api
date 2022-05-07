@@ -3,6 +3,8 @@
 ### Dependências 
 - [`Dartion`](https://pub.dev/packages/dartion)
   - comandos: `dartion upgrade   E     dartion serve`
+- [`Http`](https://pub.dev/packages/http)
+
 
 
 ### JSON
