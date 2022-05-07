@@ -23,6 +23,11 @@
   - Dados nulos null
 - [`Exemplo com um objeto`](https://github.com/jcarloscody/dart_consumo_api/blob/master/lib/json/aluno.json), [`Exemplo com vários objetos`](https://github.com/jcarloscody/dart_consumo_api/blob/master/lib/json/alunos.json) 
 - [`Conversão de Json`](https://github.com/jcarloscody/dart_consumo_api/blob/master/bin/main.dart) json.decode(), json.encode()
+- [Métodos auxiliares de uma classe]() 
+  - toMap(): objeto para Map
+  - fromMap(): constructor para Map->objeto
+  - toJson(): método objeto->string
+  - fromJson(): constructor método string->objeto
 
 
 
