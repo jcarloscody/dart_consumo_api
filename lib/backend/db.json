@@ -1,0 +1,88 @@
+{
+    "aluno": [
+        {
+            "id": "1",
+            "nome": "Josué Carlos",
+            "idade": 25,
+            "isProgrammer": true,
+            "linguagensUsadas": ["Java", "Flutter", "Javascript", "Typescript", "Python"],
+            "address": [
+                {
+                    "cidade":"Macaíba",
+                    "estado": "RN"
+                }, 
+                {
+                    "cidade":"Timbaúba",
+                    "estado": "PE"
+                }
+            ],
+            "telefone": {
+                "ddd": 81,
+                "telefone": 991665664
+            }
+        },
+        {
+            "id": "2",
+            "nome": "Josué Carlos",
+            "idade": 25,
+            "isProgrammer": true,
+            "linguagensUsadas": ["Java", "Flutter", "Javascript", "Typescript", "Python"],
+            "address": [
+                {
+                    "cidade":"Macaíba",
+                    "estado": "RN"
+                }, 
+                {
+                    "cidade":"Timbaúba",
+                    "estado": "PE"
+                }
+            ],
+            "telefone": {
+                "ddd": 81,
+                "telefone": 991665664
+            }
+        },
+        {
+            "id": "3",
+            "nome": "Josué Carlos",
+            "idade": 25,
+            "isProgrammer": true,
+            "linguagensUsadas": ["Java", "Flutter", "Javascript", "Typescript", "Python"],
+            "address": [
+                {
+                    "cidade":"Macaíba",
+                    "estado": "RN"
+                }, 
+                {
+                    "cidade":"Timbaúba",
+                    "estado": "PE"
+                }
+            ],
+            "telefone": {
+                "ddd": 81,
+                "telefone": 991665664
+            }
+        },
+        {
+            "id": "4",
+            "nome": "Josué Carlos",
+            "idade": 25,
+            "isProgrammer": true,
+            "linguagensUsadas": ["Java", "Flutter", "Javascript", "Typescript", "Python"],
+            "address": [
+                {
+                    "cidade":"Macaíba",
+                    "estado": "RN"
+                }, 
+                {
+                    "cidade":"Timbaúba",
+                    "estado": "PE"
+                }
+            ],
+            "telefone": {
+                "ddd": 81,
+                "telefone": 991665664
+            }
+        }
+    ]
+}

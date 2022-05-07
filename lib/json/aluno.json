@@ -12,5 +12,9 @@
             "cidade":"Timbaúba",
             "estado": "PE"
         }
-    ]
+    ],
+    "telefone": {
+        "ddd": 81,
+        "telefone": 991665664
+    }
 }
