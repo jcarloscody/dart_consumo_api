@@ -1,3 +1,4 @@
+// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'dart:convert';
 
 class Endereco {
@@ -27,4 +28,7 @@ class Endereco {
   String toJson() {
     return json.encode(toMap());
   }
+
+  @override
+  String toString() => 'Endereco(cidade: $cidade, estado: $estado)';
 }

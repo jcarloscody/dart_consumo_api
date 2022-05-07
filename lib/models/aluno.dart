@@ -1,3 +1,4 @@
+// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'dart:convert';
 
 import 'package:consumo/models/endereco.dart';
@@ -7,7 +8,7 @@ class Aluno {
   String id;
   String nome;
   int idade;
-  List<String> nomeCursos;
+  List<String> linguagensUsadas;
   List<Endereco> endereco;
   Telefone telefone;
 
@@ -16,7 +17,7 @@ class Aluno {
     required this.nome,
     required this.endereco,
     required this.idade,
-    required this.nomeCursos,
+    required this.linguagensUsadas,
     required this.telefone,
   });
 
@@ -27,7 +28,8 @@ class Aluno {
             .map<Endereco>((mapa) => Endereco.fromMap(mapa))
             .toList(),
         idade: map['idade'] ?? '',
-        nomeCursos: map['nomeCursos'] ?? '',
+        linguagensUsadas: map['linguagensUsadas']
+            .cast<String>(), //List<String>.from(map['linguagensUsadas'])
         telefone: Telefone.fromMap(map['telefone'] ?? ''),
       );
 
@@ -38,9 +40,14 @@ class Aluno {
         "nome": nome,
         "endereco": endereco.map((endereco) => endereco.toMap()).toList(),
         "idade": idade,
-        "nomeCursos": nomeCursos,
+        "linguagensUsadas": linguagensUsadas,
         "telefone": telefone.toMap(),
       };
 
   String toJson() => json.encode(toMap());
+
+  @override
+  String toString() {
+    return 'Aluno(id: $id, nome: $nome, idade: $idade, linguagensUsadas: $linguagensUsadas, endereco: $endereco, telefone: $telefone)';
+  }
 }

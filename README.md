@@ -26,8 +26,8 @@
 - [Métodos auxiliares de uma classe]() 
   - toMap(): objeto para Map
   - fromMap(): constructor para Map->objeto
-  - toJson(): método objeto->string
-  - fromJson(): constructor método string->objeto
+  - toJson(): método map -> String
+  - fromJson(): construct String->Objeto
 
 
 

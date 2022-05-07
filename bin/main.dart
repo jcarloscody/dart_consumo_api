@@ -1,6 +1,12 @@
 import 'dart:convert';
 
+import 'package:consumo/camadas/controller/aluno_controller.dart';
+
 void main() {
+  AlunoController().findAll();
+}
+
+void main2() {
   String enderecoJson = '''
 {
   "cidade": "Timbaúba",
