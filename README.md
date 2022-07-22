@@ -22,9 +22,11 @@
 - Respresentado por `{}` ou `[{}].`
   - `{}` Objeto
   - `[{}]` Array de objeto
+- 
 - json.decode(String)
+  - String.runtimeType
   - retorna um objeto dynamic
-    - se {} => será Map <String, dynamic>
+    - se {} => será Map<String, dynamic>
     - se [] => será List
 - `Tipos de dados` aceitos:
   - Strings
@@ -34,11 +36,11 @@
   - Dados nulos null
 - [`Exemplo com um objeto`](https://github.com/jcarloscody/dart_consumo_api/blob/master/lib/json/aluno.json), [`Exemplo com vários objetos`](https://github.com/jcarloscody/dart_consumo_api/blob/master/lib/json/alunos.json) 
 - [`Conversão de Json`](https://github.com/jcarloscody/dart_consumo_api/blob/master/bin/main.dart) json.decode(), json.encode()
-- [`Métodos auxiliares de uma classe`](https://github.com/jcarloscody/dart_consumo_api/tree/master/lib/models) 
-  - toMap(): objeto para Map
-  - fromMap(): constructor para Map->objeto
-  - toJson(): método map -> String
-  - fromJson(): construct String->Objeto
+- [`Construtores e Métodos `](https://github.com/jcarloscody/dart_consumo_api/tree/master/lib/models) 
+  - toMap(): método transforma objeto para Map<String, dynamic>
+  - fromMap(): constructor para transformar Map->objeto
+  - toJson(): método que transforma map -> String
+  - fromJson(): construct que transforma String->Objeto
 
 
 

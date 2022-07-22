@@ -14,14 +14,14 @@ class Telefone {
 
 //decode - json para objeto dynamic.
   factory Telefone.fromJson(String jsonn) =>
-      Telefone.fromMap(json.decode(jsonn));
+      Telefone.fromMap(jsonDecode(jsonn));
 
   Map<String, dynamic> toMap() => {
         "ddd": ddd,
         "telefone": telefone,
       };
 
-  String toJson() => json.encode(toMap());
+  String toJson() => jsonEncode(toMap());
 
   @override
   String toString() => 'Telefone(ddd: $ddd, telefone: $telefone)';
