@@ -2,7 +2,12 @@
 
 ### Dependências 
 - [`Dartion`](https://pub.dev/packages/dartion)
-  - comandos: `dartion upgrade   E     dartion serve`
+  - o que é? criado pela fluterando, é um mini webserver, onde ele utilizar um restFull, baseado em json.
+  - **comandos**: 
+    - dart pub global activate dartion
+    - dartion upgrade
+    - dartion serve
+      - cria um folder "backend" e roda o comando
 - [`Http`](https://pub.dev/packages/http)
 
 
@@ -17,6 +22,10 @@
 - Respresentado por `{}` ou `[{}].`
   - `{}` Objeto
   - `[{}]` Array de objeto
+- json.decode(String)
+  - retorna um objeto dynamic
+    - se {} => será Map <String, dynamic>
+    - se [] => será List
 - `Tipos de dados` aceitos:
   - Strings
   - Números

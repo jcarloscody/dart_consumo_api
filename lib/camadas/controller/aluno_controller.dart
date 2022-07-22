@@ -1,4 +1,4 @@
-import 'package:consumo/camadas/repository/alunos_repository.dart';
+import '../repository/alunos_repository.dart';
 
 class AlunoController {
   var alunoRepository = AlunosRepository();

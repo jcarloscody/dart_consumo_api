@@ -1,7 +1,8 @@
 import 'dart:convert';
 
-import 'package:consumo/models/aluno.dart';
 import 'package:http/http.dart';
+
+import '../../models/aluno.dart';
 
 class AlunosRepository {
   Future<List<Aluno>> findAll() async {

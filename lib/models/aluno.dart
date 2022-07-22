@@ -1,8 +1,8 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'dart:convert';
 
-import 'package:consumo/models/endereco.dart';
-import 'package:consumo/models/telefone.dart';
+import 'endereco.dart';
+import 'telefone.dart';
 
 class Aluno {
   String id;
